@@ -1,0 +1,22 @@
+params:
+  criterion:
+    - "gini"
+    - "entropy"
+    - "log_loss"
+  max_depth:
+    - 2
+    - 5
+    - 8
+    - 10
+  min_samples_leaf:
+    - 1
+    - 2
+    - 5
+    - 10
+    - 20
+    - 50
+plots:
+    x: param_clf__min_samples_leaf
+    y: mean_test_f1_weighted
+    style: param_clf__max_depth
+    hue: param_clf__criterion

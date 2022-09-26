@@ -1,0 +1,12 @@
+category_encoders
+scikit-learn
+matplotlib
+ipykernel
+notebook
+imblearn
+seaborn
+jupyter
+kaggle
+pandas
+numpy
+black

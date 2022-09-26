@@ -1,0 +1,19 @@
+params:
+  n_neighbors:
+    - 1
+    - 2
+    - 5
+    - 10
+    - 20
+    - 50
+  weights:
+    - "uniform"
+    - "distance"
+  p:
+    - 1
+    - 2
+plots:
+    x: param_clf__n_neighbors
+    y: mean_test_f1_weighted
+    style: param_clf__weights
+    hue: param_clf__p
