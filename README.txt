@@ -1,3 +1,5 @@
+Alternate repository location here: https://github.gatech.edu/jbruck6/supervised_learning.
+
 The code to run this project is available at https://github.com/jacklbruck/supervised_learning.
 
 The steps to run the code are pretty straightforward. First create an environment however you would like to. Then pull and pip install this repository, preferably with the -e flag.
